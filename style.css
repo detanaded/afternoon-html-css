@@ -1,0 +1,109 @@
+body {
+    background:#E1E7FA;
+    padding: 12px;
+}
+
+.main {
+    background: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 87px;
+    /* background:blue; */
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.logo {
+ display: flex;
+ align-items: center;
+ margin:0;
+ width: 15%;
+ padding-left: 15px;
+}
+
+.text {
+    /* color:white; */
+    padding-right: 80px;
+}
+
+.text h1 {
+    font-size: 25px;
+    margin:0;
+}
+.text h3 {
+    margin: 0;
+    font-size: 12px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    /* color: white; */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+    .sub {
+        text-transform: uppercase;
+        border-radius: 50px;
+        padding: 11px 23px;
+        width: 115px;
+        color: white;
+        background: #0828CC;
+        border-style: solid;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .sub:hover {
+        background-color: white;
+        color: #0828CC;
+        border: 1px solid #0828CC;
+        border-radius: 50px;
+        padding: 11px 23px;
+        width: 130px;
+        border: 1px solid #0828CC;
+        border-style: solid;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .logobtn {
+        padding-left: 10px;
+    }
+
+
+    .borderh {
+        background:white;
+        width: 94.5%;
+        height: 100vh;
+    }
+    .hero   {
+        background: #E1E7FA;
+        width: 100%;
+        height: 100vh;
+        margin:63px;
+        display: flex;
+        align-content: center;
+      
+       }
+   
+       .htext {
+           font-size: 47.36px;
+           line-height: 63.2px;
+           letter-spacing: .49px;
+           box-sizing: border-box;
+           width: 100%px;
+          
+
+       }
